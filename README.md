@@ -1,5 +1,3 @@
-# trybe-exercicios
-Exercícios que serão entregues durante o ano letivo do curso de desenvolvimento trybe
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _Patrick Rayner https://www.linkedin.com/in/patrickrayner/_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
