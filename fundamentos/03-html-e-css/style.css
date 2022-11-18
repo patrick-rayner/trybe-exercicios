@@ -1,12 +1,32 @@
-p, h1, ol, ul {
-  text-align: center;
-  list-style: none;
+div:hover {
+  border-style: solid;
+  border-width: 1px;
 }
 
-li:hover {
+div {
+  width: 20%;
+}
+
+.red {
+  background-color: red;
+  font-style: italic;
+}
+ 
+.blue {
+  background-color: blue;
+}
+ 
+.green {
+  background-color: green;
+  height: 80px;
+  font-style: italic;
+}
+ 
+.dark {
   background-color: gray;
 }
-
-li:active {
-  color: white;
+ 
+.clean {
+  background-color: beige;
+  font-style: italic;
 }
