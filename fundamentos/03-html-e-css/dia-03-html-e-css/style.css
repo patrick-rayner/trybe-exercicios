@@ -1,32 +1,43 @@
-div:hover {
-  border-style: solid;
-  border-width: 1px;
+ol {
+  color: rgb(255, 166, 0);
 }
 
-div {
-  width: 20%;
+li {
+  font-size: 20px;
 }
 
-.red {
-  background-color: red;
-  font-style: italic;
+li em {
+  font-weight: bold;
 }
- 
-.blue {
-  background-color: blue;
+
+ol li:nth-child(even) {
+  color: green;
 }
- 
-.green {
-  background-color: green;
-  height: 80px;
-  font-style: italic;
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
 }
- 
-.dark {
-  background-color: gray;
+
+h1, h2, h3, h4, h5, h6 {
+  color:red;
 }
- 
-.clean {
-  background-color: beige;
-  font-style: italic;
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+  font-size: 40px;
+  -webkit-text-stroke: 1px black;
+}
+
+.div > ul > li:not(:nth-child(n+4)) {
+  color: blue;
+}
+
+.pink {
+  background-color: pink;
+  width: 300px;
+}
+
+a:hover {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
