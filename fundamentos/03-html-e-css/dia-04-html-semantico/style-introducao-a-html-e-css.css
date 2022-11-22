@@ -35,3 +35,12 @@ h3 {
 .shrimp-img {
   width: 300px;
 }
+
+.inline-block {
+  display: inline-block;
+  line-height: 5px;
+}
+
+.biological-info {
+  font-size: 14px;
+}
