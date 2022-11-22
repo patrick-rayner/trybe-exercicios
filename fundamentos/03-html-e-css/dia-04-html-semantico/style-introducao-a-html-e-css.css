@@ -27,3 +27,11 @@ li a {
   text-decoration: bold;
   float: left; 
 }
+
+h3 {
+  font-style: italic;
+}
+
+.shrimp-img {
+  width: 300px;
+}
