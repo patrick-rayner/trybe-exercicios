@@ -33,7 +33,10 @@ h3 {
 }
 
 .shrimp-img {
-  width: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
 }
 
 .inline-block {
@@ -43,4 +46,12 @@ h3 {
 
 .biological-info {
   font-size: 14px;
+}
+
+h4 {
+  background-color: violet;
+  display: inline;
+  border-radius: 10px;
+  padding: 5px 15px;
+  line-height: 40px;
 }
