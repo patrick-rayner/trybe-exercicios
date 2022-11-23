@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  background-color: violet;
+  text-align: right;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.float-left {
+  text-decoration: bold;
+  float: left; 
+}
+
+h3 {
+  font-style: italic;
+}
+
+.shrimp-img {
+  border-radius: 100%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.inline-block {
+  display: inline-block;
+  line-height: 5px;
+}
+
+.biological-info {
+  font-size: 14px;
+}
+
+h4 {
+  background-color: violet;
+  display: inline;
+  border-radius: 10px;
+  padding: 5px 15px;
+  line-height: 40px;
+}
+
+main {
+  width:60%;
+  margin: auto;
+  padding: 12px;
+}
