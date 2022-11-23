@@ -1,1 +1,2 @@
-console.log ('oi');
+const myName = 'Patrick';
+const birthCity = 'Belo Horizonte';
