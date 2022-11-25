@@ -1,17 +1,13 @@
-const grade = 76;
+// Utilize if/else para escrever um código que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele deve retornar false.
+// Bonus: use somente um if.
 
-if (grade < 0 || grade > 100) {
-  console.log("Erro, nota incorreta!");
-} else if (grade >= 90) {
-  console.log("A");
-} else if (grade >= 80) {
-  console.log("B");
-} else if (grade >= 70) {
-  console.log("C");
-} else if (grade >= 60) {
-  console.log("D");
-} else if (grade >= 50) {
-  console.log("E");
-} else {
-  console.log("F");
-}
+const a = 5;
+const b = 7;
+const c = 2;
+
+let isOdd = false;
+
+if ((a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0)) {
+  isOdd = true;
+};
+console.log(isOdd);
