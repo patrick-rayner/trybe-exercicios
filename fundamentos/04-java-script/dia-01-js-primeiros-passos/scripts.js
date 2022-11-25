@@ -1,18 +1,6 @@
-let statusCandidato = 'lista';
+let a = 10;
+let b = 20;
 
-switch (statusCandidato) {
-  case 'aprovada':
-    console.log ("Parabéns, você foi aprovada(o)!");
-    break;
-
-  case 'lista':
-    console.log ("Você está na nossa lista de espera");
-    break;
+let adicao = a+b;
   
-  case 'reprovada':
-    console.log ("Você foi reprovada(o)");
-    break;
-
-  default:
-    console.log ("Informação incorreta");
-}
+console.log (adicao);
