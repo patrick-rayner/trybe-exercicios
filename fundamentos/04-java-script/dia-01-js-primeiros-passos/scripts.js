@@ -1,6 +1,6 @@
 let a = 10;
 let b = 20;
 
-let sub = a-b;
+let multiply = a*b;
   
-console.log (sub);
+console.log (multiply);
