@@ -1,6 +1,6 @@
 let a = 10;
 let b = 20;
 
-let multiply = a*b;
+let division = a/b;
   
-console.log (multiply);
+console.log (division);
