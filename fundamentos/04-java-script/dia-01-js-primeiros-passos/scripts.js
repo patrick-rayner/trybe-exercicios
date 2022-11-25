@@ -1,6 +1,6 @@
 let a = 10;
 let b = 20;
 
-let adicao = a+b;
+let sub = a-b;
   
-console.log (adicao);
+console.log (sub);
