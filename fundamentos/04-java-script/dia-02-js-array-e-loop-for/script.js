@@ -86,12 +86,27 @@
 // console.log(array);
 
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
-let array = []
-let index = 1
-while(index < 25){
-  array.push(index);
-  index +=1;
+// let array = []
+// let index = 1
+// while(index < 25){
+//   array.push(index);
+//   index +=1;
+// }
+// for (let indexDiv = 0; indexDiv < array.length; indexDiv +=1){
+//   console.log(array[indexDiv]/2);
+// }
+
+// Ordene o array numbers em ordem crescente e imprima seus valores; 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]; // declaração do array
+for (let index1 = 1; index1 < numbers.length; index1 += 1) { // primeiro loop de iteração com o lenght de [numbers]
+  for (let index2 = 0; index2 < index1; index2 += 1) { // segundo loop de iteração que fará a comparação sempre com o primeiro index de numbers
+    // index de valores diferentes para serem comparados
+    if (numbers[index1] < numbers[index2]) { 
+      // se o (index1) for menor que (index2) executa a ação
+      let order = numbers[index1];
+      numbers[index1] = numbers[index2];
+      numbers[index2] = order; // aplica a alteração feita no loop para o array
+    }
+  }
 }
-for (let indexDiv = 0; indexDiv < array.length; indexDiv +=1){
-  console.log(array[indexDiv]/2);
-}
+console.log(numbers);
