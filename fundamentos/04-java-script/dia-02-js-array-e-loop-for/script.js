@@ -8,11 +8,16 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 // Utilizando for apenas
-for (let indexOfNumbers = 0; indexOfNumbers <= numbers.length; indexOfNumbers += 1){
-  console.log(numbers[indexOfNumbers]);
-}
+// for (let indexOfNumbers = 0; indexOfNumbers < numbers.length; indexOfNumbers += 1){
+//   console.log(numbers[indexOfNumbers]);
+// }
 
 // Some todos os valores contidos no array e imprima o resultado;
+let sumOfNumbers = 0
+for (let indexOfNumbers = 0; indexOfNumbers < numbers.length; indexOfNumbers += 1){
+  sumOfNumbers += numbers[indexOfNumbers];
+}
+console.log(sumOfNumbers);
 
 // Calcule e imprima a média aritmética dos valores contidos no array;
 
