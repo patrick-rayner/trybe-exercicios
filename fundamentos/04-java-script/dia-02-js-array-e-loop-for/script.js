@@ -79,10 +79,19 @@
 // console.log(lowerValue);
 
 // Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
-let array = []
-for (let index = 1; index <= 25; index += 1){
-  array.push(index)
-}
-console.log(array);
+// let array = []
+// for (let index = 1; index <= 25; index += 1){
+//   array.push(index);
+// }
+// console.log(array);
 
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
+let array = []
+let index = 1
+while(index < 25){
+  array.push(index);
+  index +=1;
+}
+for (let indexDiv = 0; indexDiv < array.length; indexDiv +=1){
+  console.log(array[indexDiv]/2);
+}
