@@ -97,16 +97,30 @@
 // }
 
 // Ordene o array numbers em ordem crescente e imprima seus valores; 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]; // declaração do array
-for (let index1 = 1; index1 < numbers.length; index1 += 1) { // primeiro loop de iteração com o lenght de [numbers]
-  for (let index2 = 0; index2 < index1; index2 += 1) { // segundo loop de iteração que fará a comparação sempre com o primeiro index de numbers
-    // index de valores diferentes para serem comparados
-    if (numbers[index1] < numbers[index2]) { 
-      // se o (index1) for menor que (index2) executa a ação
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]; // declaração do array
+// for (let index1 = 1; index1 < numbers.length; index1 += 1) { // primeiro loop de iteração com o lenght de [numbers]
+//   for (let index2 = 0; index2 < index1; index2 += 1) { // segundo loop de iteração que fará a comparação sempre com o primeiro index de numbers
+//     // index de valores diferentes para serem comparados
+//     if (numbers[index1] < numbers[index2]) { 
+//       // se o (index1) for menor que (index2) executa a ação
+//       let order = numbers[index1];
+//       numbers[index1] = numbers[index2];
+//       numbers[index2] = order; // aplica a alteração feita no loop para o array
+//     }
+//   }
+// }
+// console.log(numbers);
+
+// Ordene o array numbers em ordem decrescente e imprima seus valores; 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for (let index1 = 1; index1 < numbers.length; index1 += 1) { 
+  for (let index2 = 0; index2 < index1; index2 += 1) {
+    if (numbers[index1] > numbers[index2]) { 
       let order = numbers[index1];
       numbers[index1] = numbers[index2];
-      numbers[index2] = order; // aplica a alteração feita no loop para o array
+      numbers[index2] = order;
     }
   }
 }
 console.log(numbers);
+
