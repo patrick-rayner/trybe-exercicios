@@ -28,7 +28,7 @@
 let aliquotINSS;
 let aliquotIR;
 
-const grossSalary = 2000.00;
+let grossSalary = 20000.00;
 
 if (grossSalary <= 1556.94) {
   aliquotINSS = grossSalary * 0.08;
@@ -40,7 +40,7 @@ if (grossSalary <= 1556.94) {
   aliquotINSS = 570.88;
 }
 
-const baseSalary = grossSalary - aliquotINSS;
+let baseSalary = grossSalary - aliquotINSS;
 
 if (baseSalary <= 1903.98) {
   aliquotIR = 0;
@@ -54,4 +54,4 @@ if (baseSalary <= 1903.98) {
   aliquotIR = (baseSalary * 0.275) - 869.36;
 };
 
-console.log("Salário: " + (baseSalary - aliquotIR));
+console.log("Salário: " + (baseSalary - aliquotIR).toFixed(2));
