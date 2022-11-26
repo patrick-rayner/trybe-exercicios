@@ -45,28 +45,28 @@
 //   }
 
 // Utilizando for, descubra qual o maior valor contido no array e imprima-o;
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let higherValue = numbers [0];
-for (let indexOfNumbers = 1; indexOfNumbers < numbers.length; indexOfNumbers += 1){
-  if (numbers[indexOfNumbers] > higherValue) {
-    higherValue = numbers[indexOfNumbers];
-  }
-}
-console.log(higherValue);
-
-// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
 // let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-// let evenOrOdd = 0;
-// for (let indexOfNumbers = 0; indexOfNumbers < numbers.length; indexOfNumbers += 1){
-//   if (numbers[indexOfNumbers]%2 !== 0){
-//     evenOrOdd += 1;
+// let higherValue = numbers [0];
+// for (let indexOfNumbers = 1; indexOfNumbers < numbers.length; indexOfNumbers += 1){
+//   if (numbers[indexOfNumbers] > higherValue) {
+//     higherValue = numbers[indexOfNumbers];
 //   }
 // }
-// if (evenOrOdd !== 0){
-//   console.log('Existem', evenOrOdd, 'valores ímpares no array');
-// } else {
-//   console.log('Nenhum valor ímpar encontrado');
-// }
+// console.log(higherValue);
+
+// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let evenOrOdd = 0;
+for (let indexOfNumbers = 0; indexOfNumbers < numbers.length; indexOfNumbers += 1){
+  if (numbers[indexOfNumbers]%2 !== 0){
+    evenOrOdd += 1;
+  }
+}
+if (evenOrOdd !== 0){
+  console.log('Existem', evenOrOdd, 'valores ímpares no array');
+} else {
+  console.log('Nenhum valor ímpar encontrado');
+}
 
 // Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 
