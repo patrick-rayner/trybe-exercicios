@@ -69,15 +69,20 @@
 // }
 
 // Utilizando for, descubra qual o menor valor contido no array e imprima-o;
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let lowerValue = numbers [0];
-for (let indexOfNumbers = 1; indexOfNumbers < numbers.length; indexOfNumbers += 1){
-  if (numbers[indexOfNumbers] < lowerValue) {
-    lowerValue = numbers[indexOfNumbers];
-  }
-}
-console.log(lowerValue);
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let lowerValue = numbers [0];
+// for (let indexOfNumbers = 1; indexOfNumbers < numbers.length; indexOfNumbers += 1){
+//   if (numbers[indexOfNumbers] < lowerValue) {
+//     lowerValue = numbers[indexOfNumbers];
+//   }
+// }
+// console.log(lowerValue);
 
 // Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+let array = []
+for (let index = 1; index <= 25; index += 1){
+  array.push(index)
+}
+console.log(array);
 
 // Utilizando o array que acabou de criar, imprima o resultado da divisão de cada um dos elementos por 2.
