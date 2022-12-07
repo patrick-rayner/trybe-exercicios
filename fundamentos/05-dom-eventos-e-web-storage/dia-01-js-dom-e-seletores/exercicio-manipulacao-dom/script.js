@@ -1,7 +1,7 @@
 // Para avaliar seus conhecimentos de HTML, você deve modificar os elementos já existentes utilizando apenas as funções:
-document.getElementById();
-document.getElementsByClassName();
-document.getElementsByTagName();
+  // document.getElementById();
+  // document.getElementsByClassName();
+  // document.getElementsByTagName();
 
 const changeText = () => {
   let paragraph = document.getElementsByTagName('p')[1];
